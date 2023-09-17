@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MemeSlider</title>
+    <link rel="icon" href="./img/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <input
+        class="input"
+        type="radio"
+        name="slide"
+        data-id="slide1"
+        id="slide1"
+        checked
+      />
+      <input
+        class="input"
+        type="radio"
+        name="slide"
+        data-id="slide2"
+        id="slide2"
+      />
+      <input
+        class="input"
+        type="radio"
+        name="slide"
+        data-id="slide3"
+        id="slide3"
+      />
+      <input
+        class="input"
+        type="radio"
+        name="slide"
+        data-id="slide4"
+        id="slide4"
+      />
+      <div class="slider-container">
+        <div class="slider">
+          <div class="slider-item item1">
+            <img src="assets/meme1.jpg" alt="image" />
+          </div>
+          <div class="slider-item item2">
+            <img src="assets/meme2.jpg" alt="image" />
+          </div>
+          <div class="slider-item item3">
+            <img src="assets/meme3.jpg" alt="image" />
+          </div>
+          <div class="slider-item item4">
+            <img src="assets/meme4.jpg" alt="image" />
+          </div>
+        </div>
+      </div>
+      <div class="slider-content">
+        <div class="text-container">
+          <div class="slider-text">
+            <p class="img-text" data-text="slide1">Don't move!</p>
+            <p class="img-text" data-text="slide2">Don't raise the font on me!</p>
+            <p class="img-text" data-text="slide3">Work harder!</p>
+            <p class="img-text" data-text="slide4">Sad((</p>
+          </div>
+        </div>
+        <div class="controller-block">
+          <label class="label" for="slide1">
+            <span class="custom-radio"></span>
+          </label>
+          <label class="label" for="slide2">
+            <span class="custom-radio"></span>
+          </label>
+          <label class="label" for="slide3">
+            <span class="custom-radio"></span>
+          </label>
+          <label class="label" for="slide4">
+            <span class="custom-radio"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
